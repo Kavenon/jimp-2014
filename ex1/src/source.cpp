@@ -1,4 +1,5 @@
 #include "source.h"
+// -------------------------------------------------------------
 
 template<>
 double suma<char**>(char** tab, int iter){
@@ -16,3 +17,4 @@ double suma<char**>(char** tab, int iter){
 
   return result;
 }
+// -------------------------------------------------------------
