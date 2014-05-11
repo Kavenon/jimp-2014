@@ -19,7 +19,7 @@ using namespace std;
 
 
 /// \brief funkcja szablonowa sumujaca skladniki
-/// \param  T- skldniki sumy
+/// \param  T - skldniki sumy
 /// \param  iter - dlugosc tablicy
 /// \return funkcja zwraca dlugosc sumy oraz wyswietla wyniki w formie skladnik + skladnik = wynik
 template<typename T>

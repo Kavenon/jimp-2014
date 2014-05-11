@@ -1,4 +1,5 @@
 #include "aghFib.h"
+#include "aghException.h"
 // -------------------------------------------------------------
 
 aghFib::aghFib() {
@@ -15,6 +16,8 @@ int aghFib::operator[] (const int index){
 // -------------------------------------------------------------
 
 int aghFib::fibonacci(int index){
+
+  if(index < 0) throw aghException(0, "Index out of range", __FILE__, __LINE__);
 
   if (index == 0)
     return 0;

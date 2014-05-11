@@ -13,6 +13,7 @@
 #include <iostream>
 #include <string.h>
 
+#include "aghException.h"
 #include "aghFib.h"
 #include "source.h"
 

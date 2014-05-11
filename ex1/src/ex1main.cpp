@@ -25,7 +25,6 @@ int main(void)
      showTestResult(4, t4);
 
 
-
      cout << "Finally, this is the end...\n";
 
      return 0;
