@@ -1,2 +1,3 @@
-TO DO: 
-  1) dodać komentarze
+TO DO:
+   - sprawdzić
+   - swietować
