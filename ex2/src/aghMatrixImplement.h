@@ -1,6 +1,5 @@
 #ifndef AGHMATRIXIMPLEMENT_H_
 #define AGHMATRIXIMPLEMENT_H_
-
 // -------------------------------------------------------------
 
 template<class T>
@@ -48,6 +47,7 @@ void aghMatrix<T>::createContainer(int r, int c){
 
 template<class T>
 void aghMatrix<T>::deleteContainer(){
+
     if(container != NULL){
         for(int i = 0; i < rows; i++){
             delete [] container[i];
@@ -58,14 +58,17 @@ void aghMatrix<T>::deleteContainer(){
         rows = 0;
         cols = 0;
     }
+
 }
 // -------------------------------------------------------------
 
 template<class T>
 void aghMatrix<T>::setItem(int r, int c, T value){
+
     if(r < rows && c < cols && container != NULL){
         container[r][c] = value;
     }
+
 }
 // -------------------------------------------------------------
 
@@ -89,6 +92,7 @@ void aghMatrix<T>::setItems(int r, int c, ...){
 
     va_list arguments;
     va_start ( arguments, c );
+
     for(int r = 0; r < rows; r++){
         for(int c = 0; c < cols; c++) {
             container[r][c] = va_arg(arguments, T);
@@ -144,7 +148,6 @@ aghMatrix<T> aghMatrix<T>::operator*(aghMatrix<T> const &m){
 
     aghMatrix<T> result;
     result.createContainer(rows,m.cols);
-
 
     for(int i = 0; i < rows; i++)
         for(int j = 0; j < m.cols; j++)

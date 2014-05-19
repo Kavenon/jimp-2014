@@ -9,12 +9,12 @@ char * sumStrings(const char * s1, const char * s2){
     char * result = NULL;
     int count = 0;
 
-    for(int i = 0; i <strlen(s1);i++){
+    for(unsigned int i = 0; i <strlen(s1);i++){
         if(strchr(buffer, s1[i]) == NULL){
             buffer[count++] = s1[i];
         }
     }
-     for(int i = 0; i <strlen(s2);i++){
+     for(unsigned int i = 0; i <strlen(s2);i++){
         if(strchr(buffer, s2[i]) == NULL){
             buffer[count++] = s2[i];
         }
@@ -37,7 +37,7 @@ char * multiplyStrings(const char * s1, const char * s2){
     char * result = NULL;
     int count = 0;
 
-    for( int i = 0; i < strlen(s1); i++ ){
+    for(unsigned int i = 0; i < strlen(s1); i++ ){
         if(strchr(s2, s1[i]) != NULL && strchr(buffer, s1[i]) == NULL){
             buffer[count++] = s1[i];
         }

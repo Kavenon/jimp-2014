@@ -21,7 +21,6 @@
 #include "aghMatrixImplement.h"
 #include "aghComplex.h"
 
-
 using namespace std;
 
 // -------------------------------------------------------------------------

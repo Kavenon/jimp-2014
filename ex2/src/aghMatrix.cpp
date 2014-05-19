@@ -11,6 +11,7 @@ void aghMatrix<char>::setItems(int r, int c, ...){
 
     va_list arguments;
     va_start ( arguments, c );
+
     for(int r = 0; r < rows; r++){
         for(int c = 0; c < cols; c++) {
             container[r][c] = va_arg(arguments, int);
@@ -82,6 +83,7 @@ aghMatrix<char*> aghMatrix<char*>::operator+(aghMatrix<char*> const &m){
 
 }
 // -------------------------------------------------------------
+
 template<>
 aghMatrix<char*> aghMatrix<char*>::operator*(aghMatrix<char*> const &m){
 
@@ -133,6 +135,7 @@ void aghMatrix<char*>::setItems(char ** values){
 
         }
     }
+
 }
 // -------------------------------------------------------------
 
@@ -146,6 +149,7 @@ void aghMatrix<char*>::setItems(int r, int c, ...){
 
     va_list arguments;
     va_start ( arguments, c );
+
     for(int r = 0; r < rows; r++){
         for(int c = 0; c < cols; c++) {
             setItem(r,c, va_arg(arguments, char*));
@@ -153,6 +157,7 @@ void aghMatrix<char*>::setItems(int r, int c, ...){
     }
 
     va_end ( arguments );
+
 }
 // -------------------------------------------------------------
 template<>
@@ -211,7 +216,10 @@ aghMatrix<char*> & aghMatrix<char*>::operator=(aghMatrix<char*> const & m){
                 setItem(r,c, m.container[r][c]);
             }
         }
+
     }
+
     return *this;
+
 }
 // -------------------------------------------------------------

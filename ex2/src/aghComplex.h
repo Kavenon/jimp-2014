@@ -60,6 +60,13 @@ class aghComplex {
         /// \return True if complex numbers are diffrent
         bool operator!=(aghComplex const & c);
 
+        /// \brief Overloaded << operator
+        ///
+        /// \param out - output stream
+        /// \param c - complex number
+        /// \return Prints complex number to output stream
+        friend ostream& operator<<(ostream& out, const aghComplex &c);
+
 };
 // -------------------------------------------------------------------------
 

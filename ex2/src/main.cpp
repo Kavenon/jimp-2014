@@ -297,7 +297,8 @@ int main(void)
 
     cout << "Finally, this is the end...\n";
 
-
+    aghComplex x(1,1);
+    cout << x << "ehehe";
 
         return 0;
 }
