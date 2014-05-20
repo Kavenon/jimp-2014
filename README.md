@@ -1,13 +1,13 @@
 <h1>(ex3)</h1>
-<b>HAVE:</b>
-    - mojem zdaniem <u>jest wystarczajace i spelnia wszystkie kreterji</u>,
-
-<b>TO DO:</b>
-    - sprawdzić
-    - <i>(optional)</i> dodac bardziej skomplikowane algoritmy
-    - <i>(optional)</i> dodac bardziej skomplikowane testy
-    - <i>(optional)</i> pozbawic sie warningow
-
+<b>HAVE:</b><br>
+    - mojem zdaniem <u>jest wystarczajace i spelnia wszystkie kreterji</u><br>
+<br>
+<b>TO DO:</b><br>
+    - sprawdzić<br>
+    - <i>(optional)</i> dodac bardziej skomplikowane algoritmy<br>
+    - <i>(optional)</i> dodac bardziej skomplikowane testy<br>
+    - <i>(optional)</i> pozbawic sie warningow<br>
+<br>
 <h1>(ex2)</h1>
 <b>TO DO:</b>
    - sprawdzić
