@@ -1,21 +1,25 @@
 /**
 * \file aghInclude.h
 * \author Artem Mensk & Kamil Chlebek
-* \date 09.05.2014
+* \date 19.05.2014
 * \version 1.0
-* \brief Plik wlaczajaczy wszystkie potrzebne pliki
+* \brief Contains all needeed files and libraries
 */
+
 // -------------------------------------------------------------------------
 
 #ifndef AGHINCLUDE_H_
 #define AGHINCLUDE_H_
 
 #include <iostream>
-#include <string.h>
+#include <stdarg.h>
+#include <string>
 
 #include "aghException.h"
-#include "aghFib.h"
-#include "source.h"
+#include "aghFunction.h"
+#include "aghMatrix.h"
+#include "aghMatrixImplement.h"
+#include "aghComplex.h"
 
 using namespace std;
 
