@@ -7,17 +7,8 @@
 */
 // -------------------------------------------------------------------------
 
-#include <fstream>
-// -------------------------------------------------------------------------
-#include "ourGenerators/Generator.h"
-#include "ourGenerators/DefaultGenerator.h"
-#include "ourGenerators/LinearGenerator.h"
-#include "ourGenerators/QuadraticGenerator.h"
-// -------------------------------------------------------------------------
-#include "ourTests/Test.h"
-#include "ourTests/ParityTest.h"
-#include "ourTests/IntervalTest.h"
-#include "ourTests/SeriesTest.h"
+#include "aghInclude.h"
+
 // -------------------------------------------------------------------------
 int main(){
 
@@ -33,8 +24,8 @@ int main(){
   tests.push_back(new IntervalTest());
   tests.push_back(new SeriesTest());
 
-  for(int j = 0 ; j < generators.size() ; j++ )
-    for(int i = 0 ; i < tests.size() ; i++ ){
+  for(unsigned int j = 0 ; j < generators.size() ; j++ )
+    for(unsigned int i = 0 ; i < tests.size() ; i++ ){
 
       generators.at(j)->setSeed();                   // if brackets are empty seed has default value ( time(NULL); )
       generators.at(j)->setRange();                  // if brackets are empty range has default value [ 0 ; max integer in system ]
