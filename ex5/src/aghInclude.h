@@ -13,16 +13,33 @@
 
 #include <iostream>
 
+// -------------------------------------------------------------------------
+
 #include "aghException.h"
 
 #include "aghContainer.h"
 #include "aghContainerImplement.h"
 
+// -------------------------------------------------------------------------
+
 #include "aghVector.h"
 #include "aghVectorImplement.h"
 
+// -------------------------------------------------------------------------
+
+#include "aghSnode.h"
+#include "aghSnodeImplement.h"
+
 #include "aghSlist.h"
 #include "aghSlistImplement.h"
+
+// -------------------------------------------------------------------------
+
+#include "aghDnode.h"
+#include "aghDnodeImplement.h"
+
+#include "aghDlist.h"
+#include "aghDlistImplement.h"
 
 using namespace std;
 

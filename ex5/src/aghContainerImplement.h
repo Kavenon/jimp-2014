@@ -37,7 +37,7 @@ void aghContainer<T>::clear(void){
     if(isEmpty()) {
       throw aghException(0, "Already empty", __FILE__, __LINE__);
     } else {
-        for(int i = size(); i > 0;i--)
+        for(int i = size(); i >= 0;i--)
             remove(i);
     }
 
