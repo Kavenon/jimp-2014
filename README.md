@@ -1,3 +1,12 @@
+<h1>(ex6)</h1>
+<b>Have:</b><br />
+    - wszysko gotowe
+<br />
+<b>To do:</b><br />
+    - sprawdzić czy nie ma gdzieś glupot<br />
+    - ew. dodac jakies throwy
+
+
 <h1>(ex5)</h1>
 <b>Have:</b><br />
     - wszysko gotowe
