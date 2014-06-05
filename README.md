@@ -1,3 +1,11 @@
+<h1>(ex5)</h1>
+<b>Have:</b><br />
+    - wszysko gotowe
+<br />
+<b>To do:</b><br />
+    - sprawdzić czy nie ma gdzieś glupot<br />
+    - ew. dodac jakies throwy
+
 <h1>(ex3)</h1>
 <b>HAVE:</b><br>
     - mojem zdaniem <u>jest wystarczajace i spelnia wszystkie kreterji</u><br>
